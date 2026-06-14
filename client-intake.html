@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start Your Tax Filing | Clarity Tax</title>
+  <meta name="description" content="Share your tax filing details with Clarity Tax. Our team will review your case and contact you with the next steps.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#0F172A;--slate:#64748B;--muted:#94A3B8;--line:#E2E8F0;--soft:#F8FAFC;--blue:#1E5BD6;--blue2:#1747B5;--teal:#0F766E;--green:#10B981;--amber:#F59E0B;--white:#fff;--shadow:0 20px 70px -45px rgba(15,23,42,.55);--r:22px;--r-lg:30px;--mono:'JetBrains Mono',ui-monospace,monospace;--font:'Inter',system-ui,-apple-system,Segoe UI,sans-serif}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font);color:var(--ink);background:radial-gradient(circle at 12% -10%,#DBEAFE 0,#fff 34%,#F8FAFC 100%);min-height:100vh}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(226,232,240,.85)}.nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px;font-weight:950;letter-spacing:-.04em}.logo{width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--teal));display:grid;place-items:center;color:#fff;font-weight:950}.links{display:flex;align-items:center;gap:20px;color:#475569;font-weight:750;font-size:14px}.btn{border:0;border-radius:999px;padding:13px 18px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:.2s ease;font-family:var(--font)}.btn-primary{background:var(--blue);color:#fff;box-shadow:0 16px 38px -22px var(--blue)}.btn-primary:hover{background:var(--blue2);transform:translateY(-1px)}.btn-ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}.hero{padding:54px 0 28px}.hero-grid{display:grid;grid-template-columns:1fr .85fr;gap:28px;align-items:start}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--teal);font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.13em;font-weight:900;background:#ECFDF5;border:1px solid #CCFBF1;padding:8px 12px;border-radius:999px}.hero h1{font-size:clamp(38px,6vw,70px);line-height:.95;letter-spacing:-.065em;margin:18px 0 16px}.hero p{font-size:18px;color:var(--slate);line-height:1.75;margin:0;max-width:720px}.panel{background:rgba(255,255,255,.9);border:1px solid rgba(226,232,240,.9);box-shadow:var(--shadow);border-radius:var(--r-lg);padding:26px}.plan-card{position:relative;overflow:hidden}.plan-card:before{content:"";position:absolute;inset:-40% -20% auto auto;width:230px;height:230px;background:radial-gradient(circle,#DBEAFE,transparent 70%);opacity:.9}.plan-tag{font-family:var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--blue);font-size:12px;font-weight:900}.plan-name{font-size:32px;font-weight:950;letter-spacing:-.05em;margin:10px 0 4px}.price{font-size:42px;font-weight:950;letter-spacing:-.05em;margin:0 0 10px}.desc{color:var(--slate);line-height:1.65;margin:0}.form-section{padding:20px 0 70px}.form-grid{display:grid;grid-template-columns:1fr 360px;gap:26px;align-items:start}.card{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:28px}.section-title{display:flex;align-items:center;gap:12px;margin:0 0 18px}.num{width:32px;height:32px;border-radius:12px;background:#EFF6FF;color:var(--blue);display:grid;place-items:center;font-family:var(--mono);font-weight:950}.section-title h2{font-size:24px;letter-spacing:-.04em;margin:0}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{margin-bottom:15px}.field label{display:block;font-weight:850;font-size:13.5px;margin:0 0 7px;color:#334155}.field small{display:block;color:var(--muted);font-size:12px;line-height:1.45;margin:-3px 0 7px}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:16px;padding:14px 15px;font:inherit;font-weight:650;color:var(--ink);background:#FBFCFE;outline:none;transition:.18s ease}.field textarea{min-height:126px;resize:vertical;line-height:1.55}.field input:focus,.field select:focus,.field textarea:focus{border-color:#93C5FD;box-shadow:0 0 0 4px #DBEAFE;background:#fff}.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:13px;background:#FBFCFE;font-weight:750;color:#334155}.check input{margin-top:2px;accent-color:var(--blue)}.full{grid-column:1 / -1}.side{position:sticky;top:94px}.summary-list{display:grid;gap:12px;margin-top:18px}.summary-row{display:flex;justify-content:space-between;gap:14px;border-bottom:1px dashed var(--line);padding-bottom:12px;color:var(--slate);font-size:14px}.summary-row strong{color:var(--ink);text-align:right}.note{margin-top:18px;border-radius:20px;background:#F8FAFC;border:1px solid var(--line);padding:16px;color:#64748B;line-height:1.6;font-size:13.5px}.submitbar{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:22px}.status{margin-top:16px;border-radius:20px;padding:16px;display:none;line-height:1.6}.status.ok{display:block;background:#ECFDF5;border:1px solid #A7F3D0;color:#065F46}.status.err{display:block;background:#FEF2F2;border:1px solid #FECACA;color:#991B1B}.status strong{display:block;color:inherit}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}@media(max-width:920px){.hero-grid,.form-grid{grid-template-columns:1fr}.side{position:static}.field-grid,.checks{grid-template-columns:1fr}.links{display:none}.submitbar{flex-direction:column;align-items:stretch}.btn{width:100%}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><span class="logo">C</span><span>Clarity Tax</span></a>
+      <nav class="links"><a href="tax-tool.html">Tax calculator</a><a href="nri-tax-tool.html">NRI tool</a><a href="index.html#pricing">Plans</a><a href="articles/">Resources</a></nav>
+      <a class="btn btn-ghost" href="index.html">Back home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Client intake trial</span>
+          <h1>Tell us your tax story once.</h1>
+          <p>Choose a plan, share your filing details, and our team gets one clean case summary. No customer-side emailing. No PDF gymnastics.</p>
+        </div>
+        <aside class="panel plan-card">
+          <div class="plan-tag">Selected plan</div>
+          <div class="plan-name" id="planName">Expert Filing</div>
+          <div class="price" id="planPrice">₹1,999</div>
+          <p class="desc" id="planDesc">For salary plus investments, rent, deductions or cases needing expert review.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <div class="wrap form-grid">
+        <form class="card" id="intakeForm">
+          <input type="hidden" name="plan" id="planInput" value="expert">
+
+          <div class="section-title"><span class="num">1</span><h2>Contact details</h2></div>
+          <div class="field-grid">
+            <div class="field"><label>Full name</label><input name="name" id="name" autocomplete="name" required placeholder="Your name"></div>
+            <div class="field"><label>WhatsApp number</label><input name="phone" id="phone" autocomplete="tel" required placeholder="+971 / +91 ..."></div>
+            <div class="field"><label>Email</label><input name="email" id="email" type="email" autocomplete="email" required placeholder="name@example.com"></div>
+            <div class="field"><label>Country / city</label><input name="location" id="location" placeholder="Dubai, UAE / Kochi, India"></div>
+          </div>
+
+          <div class="section-title" style="margin-top:26px"><span class="num">2</span><h2>Tax profile</h2></div>
+          <div class="field-grid">
+            <div class="field"><label>Residential status</label><select name="residency" id="residency"><option>Resident Indian</option><option>NRI / Non-resident</option><option>RNOR / Not sure</option><option>Not sure, please check</option></select></div>
+            <div class="field"><label>Filing year</label><select name="filingYear" id="filingYear"><option>FY 2025-26 / AY 2026-27</option><option>FY 2024-25 / AY 2025-26</option><option>Previous year / delayed filing</option></select></div>
+            <div class="field"><label>Estimated annual income</label><input name="estimatedIncome" id="estimatedIncome" inputmode="numeric" data-money placeholder="10,00,000"></div>
+            <div class="field"><label>TDS / tax already paid</label><input name="taxPaid" id="taxPaid" inputmode="numeric" data-money placeholder="25,000"></div>
+          </div>
+
+          <div class="section-title" style="margin-top:26px"><span class="num">3</span><h2>Income types</h2></div>
+          <div class="checks">
+            <label class="check"><input type="checkbox" name="incomeTypes" value="Salary"> Salary / Form 16</label>
+            <label class="check"><input type="checkbox" name="incomeTypes" value="House property / rent"> House property / rent</label>
+            <label class="check"><input type="checkbox" name="incomeTypes" value="Interest income"> Interest income</label>
+            <label class="check"><input type="checkbox" name="incomeTypes" value="Capital gains"> Capital gains</label>
+            <label class="check"><input type="checkbox" name="incomeTypes" value="Business / freelance"> Business / freelance</label>
+            <label class="check"><input type="checkbox" name="incomeTypes" value="NRI / foreign income"> NRI / foreign income</label>
+          </div>
+
+          <div class="section-title" style="margin-top:26px"><span class="num">4</span><h2>Case details</h2></div>
+          <div class="field"><label>Tell us the situation</label><small>Example: salary only, sold mutual funds, rental income, NRI with USA income, refund expected, notice received, etc.</small><textarea name="caseNotes" id="caseNotes" required placeholder="Write the key details here..."></textarea></div>
+          <div class="field-grid">
+            <div class="field"><label>Preferred callback time</label><input name="callbackTime" id="callbackTime" placeholder="Evening / weekend / after 6 PM"></div>
+            <div class="field"><label>How urgent is this?</label><select name="urgency" id="urgency"><option>Normal</option><option>Urgent, filing deadline nearby</option><option>Need CA call first</option><option>Received notice / mismatch</option></select></div>
+          </div>
+          <label class="check full" style="margin-top:8px"><input type="checkbox" name="consent" id="consent" required> I agree that Clarity Tax may contact me on WhatsApp/email and review the details shared for tax filing assistance.</label>
+
+          <div class="submitbar">
+            <button class="btn btn-primary" id="submitBtn" type="submit">Submit details to team</button>
+            <a class="btn btn-ghost" href="index.html#pricing">Change plan</a>
+          </div>
+          <div class="status" id="formStatus"></div>
+        </form>
+
+        <aside class="card side">
+          <div class="section-title"><span class="num">✓</span><h2>What happens next</h2></div>
+          <div class="summary-list">
+            <div class="summary-row"><span>Step 1</span><strong>You submit details</strong></div>
+            <div class="summary-row"><span>Step 2</span><strong>Team receives sheet row</strong></div>
+            <div class="summary-row"><span>Step 3</span><strong>Case reviewed</strong></div>
+            <div class="summary-row"><span>Step 4</span><strong>You get next steps</strong></div>
+          </div>
+          <div class="note"><strong>Trial note:</strong> this page is ready for lead capture through Google Sheets. Replace the Google Apps Script URL in this file once, then every submission will create a row for your team to review.</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap">© <span id="year"></span> Clarity Tax. Estimate and intake support only. Final filing advice depends on document review.</div></footer>
+
+<script>
+  // Paste your deployed Google Apps Script Web App URL below.
+  // Example shape: https://script.google.com/macros/s/AKfycb.../exec
+  // Keep this empty/placeholder until your Google Sheet backend is ready.
+  const GOOGLE_SCRIPT_URL = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+  const plans = {
+    basic:{name:'Basic Filing',price:'₹299',desc:'For simple salary-only filing and basic deduction checks.'},
+    expert:{name:'Expert Filing',price:'₹1,999',desc:'For salary plus investments, rent, deductions or cases needing expert review.'},
+    ca:{name:'Full CA Support',price:'₹3,999',desc:'For NRI, DTAA, business income, complex gains and CA consultation cases.'}
+  };
+  const params = new URLSearchParams(location.search);
+  const rawPlan = (params.get('plan') || 'expert').toLowerCase();
+  const planKey = plans[rawPlan] ? rawPlan : 'expert';
+  document.getElementById('planInput').value = planKey;
+  document.getElementById('planName').textContent = plans[planKey].name;
+  document.getElementById('planPrice').textContent = plans[planKey].price;
+  document.getElementById('planDesc').textContent = plans[planKey].desc;
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const moneyInputs = [...document.querySelectorAll('[data-money]')];
+  const cleanNum = v => Number(String(v || '').replace(/[^0-9.-]/g,'')) || 0;
+  const formatIndian = n => cleanNum(n).toLocaleString('en-IN');
+  moneyInputs.forEach(input => {
+    input.addEventListener('input', () => {
+      const raw = String(input.value || '').replace(/[^0-9]/g,'');
+      if(!raw){ input.value=''; return; }
+      const cursorEnd = input.selectionStart === input.value.length;
+      input.value = Number(raw).toLocaleString('en-IN');
+      if(cursorEnd) input.setSelectionRange(input.value.length,input.value.length);
+    });
+    input.addEventListener('blur', () => { if(input.value.trim()) input.value = formatIndian(input.value); });
+  });
+
+  function getCheckedValues(name){ return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(x => x.value); }
+  function showStatus(type, html){ const box=document.getElementById('formStatus'); box.className='status '+type; box.innerHTML=html; }
+
+  document.getElementById('intakeForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true; btn.textContent = 'Submitting...';
+    const payload = {
+      plan: planKey,
+      planName: plans[planKey].name,
+      planPrice: plans[planKey].price,
+      name: document.getElementById('name').value.trim(),
+      phone: document.getElementById('phone').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      location: document.getElementById('location').value.trim(),
+      residency: document.getElementById('residency').value,
+      filingYear: document.getElementById('filingYear').value,
+      estimatedIncome: cleanNum(document.getElementById('estimatedIncome').value),
+      taxPaid: cleanNum(document.getElementById('taxPaid').value),
+      incomeTypes: getCheckedValues('incomeTypes'),
+      caseNotes: document.getElementById('caseNotes').value.trim(),
+      callbackTime: document.getElementById('callbackTime').value.trim(),
+      urgency: document.getElementById('urgency').value,
+      consent: document.getElementById('consent').checked,
+      pageUrl: location.href,
+      submittedAt: new Date().toISOString()
+    };
+    try{
+      const endpointReady = GOOGLE_SCRIPT_URL.startsWith('https://script.google.com/') && GOOGLE_SCRIPT_URL.includes('/exec');
+      if(!endpointReady){
+        throw new Error('Google Sheet endpoint is not connected yet. Paste your deployed Apps Script Web App URL into GOOGLE_SCRIPT_URL inside client-intake.html.');
+      }
+      const referenceId = 'CLARITY-' + new Date().toISOString().slice(0,10).replace(/-/g,'') + '-' + Math.random().toString(36).slice(2,7).toUpperCase();
+      payload.referenceId = referenceId;
+
+      // Google Apps Script Web Apps do not always return CORS-readable responses.
+      // no-cors lets the browser hand off the lead safely to the Sheet backend.
+      await fetch(GOOGLE_SCRIPT_URL, { method:'POST', mode:'no-cors', body: JSON.stringify(payload) });
+
+      showStatus('ok', `<strong>Details received.</strong> Reference ID: ${referenceId}. Our team will review this and contact you shortly.`);
+      e.target.reset();
+      document.getElementById('planInput').value = planKey;
+    }catch(err){
+      showStatus('err', `<strong>Submission not completed.</strong> ${err.message || 'Please try again.'}<br><br>For launch, connect the Google Sheet endpoint so leads are stored automatically.`);
+    }finally{
+      btn.disabled = false; btn.textContent = 'Submit details to team';
+    }
+  });
+</script>
+</body>
+</html>

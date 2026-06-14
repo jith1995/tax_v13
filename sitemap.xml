@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{SITE_URL}/</loc></url>
+  <url><loc>{SITE_URL}/tax-tool.html</loc></url>
+  <url><loc>{SITE_URL}/nri-tax-tool.html</loc></url>
+  <url><loc>{SITE_URL}/client-intake.html</loc></url>
+  <url><loc>{SITE_URL}/articles/</loc></url>
+  <url><loc>{SITE_URL}/articles/choose-right-itr-form.html</loc></url>
+  <url><loc>{SITE_URL}/articles/old-vs-new-tax-regime.html</loc></url>
+  <url><loc>{SITE_URL}/articles/nri-residency-status.html</loc></url>
+  <url><loc>{SITE_URL}/articles/capital-gains-tax-basics.html</loc></url>
+  <url><loc>{SITE_URL}/articles/rental-income-taxation-india.html</loc></url>
+</urlset>
