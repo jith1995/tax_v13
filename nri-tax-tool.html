@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NRI Tax Path Check | Your CA Partner</title>
+<meta name="description" content="A guided NRI tax filing preview for residency status, Indian income, foreign income, NRE/NRO interest, DTAA and foreign tax credit checks." />
+<style>
+  :root{--navy:#0B223F;--muted:#64748B;--line:#E1EAF5;--bg:#F5F8FC;--blue:#2563EB;--blue2:#DBEAFE;--teal:#14B8A6;--tealDark:#0F766E;--green:#ECFDF5;--amber:#FFF7ED;--white:#fff;--shadow:0 24px 70px -40px rgba(15,23,42,.42);--radius:28px}
+  *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#EEF6FF 0,#F8FBFF 40%,#F5F8FC 100%);color:var(--navy)}
+  a{text-decoration:none;color:inherit}.container{width:min(1180px,calc(100% - 40px));margin:0 auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:12px;font-weight:950;letter-spacing:-.04em;font-size:25px}.brandmark{width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--teal));display:grid;place-items:center;color:white;font-weight:950}.toplinks{display:flex;gap:24px;align-items:center;color:#64748B;font-weight:760}.toplinks a:hover{color:var(--blue)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:13px 20px;font-weight:900;border:1px solid transparent;cursor:pointer;transition:.2s}.btn-primary{background:var(--blue);color:#fff;box-shadow:0 12px 28px -14px rgba(37,99,235,.9)}.btn-ghost{background:#fff;border-color:var(--line);color:var(--navy)}.btn-soft{background:#ECFDF5;color:#0F766E;border-color:#BBF7D0}.hero{padding:42px 0 26px}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--tealDark);font-weight:950;letter-spacing:.16em;text-transform:uppercase;font-size:13px}.eyebrow:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--teal)}h1{font-size:clamp(38px,6vw,70px);line-height:.95;letter-spacing:-.07em;margin:20px 0 18px}.hero p{font-size:19px;line-height:1.75;color:var(--muted);max-width:680px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.preview{background:#fff;border:1px solid var(--line);border-radius:34px;box-shadow:var(--shadow);overflow:hidden}.preview-top{height:66px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:0 26px}.dot{width:13px;height:13px;border-radius:50%;background:#DFE8F4}.preview-body{padding:26px;display:grid;gap:16px}.mini-card{border:1px solid var(--line);border-radius:24px;padding:20px;background:#FAFCFF}.mini-card strong{display:block;font-size:20px;margin-bottom:8px}.mini-card span{color:var(--muted);line-height:1.55}.tool-shell{padding:26px 0 70px}.wizard{background:#fff;border:1px solid var(--line);border-radius:36px;box-shadow:var(--shadow);overflow:hidden}.wizard-head{padding:26px 30px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px}.wizard-head h2{margin:0;font-size:26px;letter-spacing:-.04em}.wizard-head p{margin:6px 0 0;color:var(--muted);line-height:1.5}.steps{display:flex;gap:8px;flex-wrap:wrap}.step-dot{border:1px solid var(--line);background:#F8FBFF;color:#64748B;border-radius:999px;padding:9px 12px;font-size:13px;font-weight:900}.step-dot.active{background:var(--blue);color:#fff;border-color:var(--blue)}.wizard-grid{display:grid;grid-template-columns:280px 1fr}.rail{background:#F8FBFF;border-right:1px solid var(--line);padding:28px}.rail-item{display:flex;align-items:center;gap:12px;padding:15px 0;color:#64748B;font-weight:850}.rail-num{width:32px;height:32px;border-radius:50%;border:2px solid #DCE7F5;display:grid;place-items:center;background:white}.rail-item.done,.rail-item.active{color:var(--navy)}.rail-item.active .rail-num{border-color:var(--blue);box-shadow:0 0 0 7px #DBEAFE;color:var(--blue)}.rail-item.done .rail-num{background:var(--teal);color:#fff;border-color:var(--teal)}.panel{padding:34px}.pane{display:none}.pane.active{display:block}.pane h3{font-size:34px;line-height:1.1;letter-spacing:-.05em;margin:0 0 12px}.pane .lead{color:var(--muted);font-size:17px;line-height:1.7;margin:0 0 26px;max-width:760px}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.form-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.field{border:1px solid var(--line);border-radius:24px;padding:20px;background:#FBFDFF;min-width:0}.field label{display:block;font-weight:950;font-size:15px;margin-bottom:8px;color:#0B223F}.field small{display:block;color:#7890AD;line-height:1.5;margin-bottom:12px}.field input,.field select{width:100%;border:none;outline:none;background:transparent;font-size:28px;font-weight:950;color:var(--navy);min-width:0}.field select{font-size:18px;border:1px solid var(--line);padding:12px;border-radius:14px;background:#fff}.toggle-row{display:flex;flex-wrap:wrap;gap:12px}.pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:14px 18px;font-weight:950;color:#64748B;cursor:pointer}.pill.active{border-color:var(--blue);color:var(--blue);box-shadow:0 0 0 5px #DBEAFE}.section-card{border:1px solid var(--line);border-radius:28px;padding:24px;margin:18px 0;background:#fff}.section-card h4{font-size:22px;letter-spacing:-.03em;margin:0 0 8px}.section-card p{margin:0 0 18px;color:var(--muted);line-height:1.6}.notice{border:1px solid rgba(20,184,166,.25);background:linear-gradient(135deg,#ECFDF5,#EFF6FF);border-radius:24px;padding:18px 20px;color:#0F766E;font-weight:850;line-height:1.55;margin:20px 0}.warn{border-color:#FED7AA;background:#FFF7ED;color:#9A3412}.summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.summary-card{border:1px solid var(--line);border-radius:24px;padding:22px;background:#FBFDFF}.summary-card span{display:block;color:#64748B;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}.summary-card strong{font-size:30px;letter-spacing:-.04em}.breakdown{margin-top:24px;border:1px solid var(--line);border-radius:28px;overflow:hidden}.row{display:flex;justify-content:space-between;gap:18px;padding:16px 20px;border-bottom:1px solid var(--line);color:#475569}.row:last-child{border-bottom:none}.row.total{background:#F8FBFF;color:var(--navy);font-weight:950}.docs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}.doc{padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:#fff;color:#475569;font-weight:760}.nav-actions{display:flex;justify-content:space-between;gap:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:24px}.muted{color:var(--muted)}.calc-action{display:inline-flex;align-items:center;gap:6px;border:1px solid #CFE0FF;background:#EFF6FF;color:#1D4ED8;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:950;cursor:pointer;margin-left:10px;white-space:nowrap}.calc-action:hover{background:#DBEAFE;transform:translateY(-1px)}.row.has-calc{flex-wrap:wrap;align-items:flex-start}.row-value{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap;text-align:right}.calc-panel{display:none;flex-basis:100%;margin-top:10px;background:#F8FBFF;border:1px solid #DCE7F5;border-radius:18px;padding:14px 16px;color:#475569;font-size:13.5px;line-height:1.55}.calc-panel.open{display:block}.calc-panel div{display:flex;justify-content:space-between;gap:14px;padding:6px 0;border-bottom:1px dashed #DCE7F5}.calc-panel div:last-child{border-bottom:none}.calc-panel b{color:var(--navy)}
+.estimate-cta{margin:24px 0 0;background:linear-gradient(135deg,#EFF6FF,#ECFDF5);border:1px solid #CFE0FF;border-radius:28px;padding:24px;display:flex;align-items:center;justify-content:space-between;gap:18px;box-shadow:0 18px 50px -36px rgba(15,23,42,.45)}.estimate-cta span{display:inline-flex;color:#0F766E;font-weight:950;letter-spacing:.12em;text-transform:uppercase;font-size:12px;margin-bottom:7px}.estimate-cta h3{margin:0 0 8px;font-size:24px;letter-spacing:-.04em}.estimate-cta p{margin:0;color:#64748B;line-height:1.6;max-width:760px}@media(max-width:760px){.estimate-cta{align-items:flex-start;flex-direction:column}.estimate-cta .btn{width:100%}}
+  @media(max-width:900px){.hero-grid,.wizard-grid{grid-template-columns:1fr}.rail{display:none}.form-grid,.form-grid.three,.summary-grid,.docs{grid-template-columns:1fr}.toplinks{display:none}.wizard-head{align-items:flex-start;flex-direction:column}.panel{padding:24px}.hero{padding-top:20px}}
+</style>
+</head>
+<body>
+<header class="container topbar">
+  <a class="brand" href="index.html"><span class="brandmark">CA</span><span>Your CA Partner</span></a>
+  <nav class="toplinks"><a href="index.html">Home</a><a href="tax-tool.html">Resident tool</a><a href="articles/">Resources</a><a href="index.html#pricing">Pricing</a></nav>
+  <a class="btn btn-ghost" href="index.html">Back home</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">NRI tax path</span>
+      <h1>Tax filing for Indians across borders.</h1>
+      <p>Check residency status, Indian income, foreign income, NRE/NRO interest, DTAA and foreign tax paid in one guided flow. This is a preview tool for CA review, not a final tax filing.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#tool">Start NRI check</a><a class="btn btn-ghost" href="tax-tool.html">Use resident India tool</a></div>
+    </div>
+    <div class="preview">
+      <div class="preview-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="preview-body">
+        <div class="mini-card"><strong>Residency first</strong><span>Days in India decide whether the Indian tax base is worldwide, India-sourced, or a mixed RNOR case.</span></div>
+        <div class="mini-card"><strong>Foreign income split</strong><span>Salary, dividends, capital gains, interest and rental income abroad are captured separately.</span></div>
+        <div class="mini-card"><strong>DTAA / FTC flag</strong><span>Tax paid abroad is shown as a review item instead of being blindly netted off.</span></div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section class="tool-shell" id="tool">
+  <div class="container">
+    <div class="wizard">
+      <div class="wizard-head">
+        <div><h2>NRI Tax Path Check</h2><p>Step-by-step preview for NRI, RNOR, foreign income and India income cases.</p></div>
+        <div class="steps" id="steps"></div>
+      </div>
+      <div class="wizard-grid">
+        <aside class="rail" id="rail"></aside>
+        <section class="panel">
+          <div class="pane active" data-pane="0">
+            <h3>Residency & day-count</h3>
+            <p class="lead">We first estimate your likely residential status. This decides whether foreign income enters the Indian tax preview.</p>
+            <div class="form-grid three">
+              <div class="field"><label>Country of residence</label><small>Where you live outside India</small><select id="country"><option>UAE</option><option>USA</option><option>UK</option><option>Canada</option><option>Australia</option><option>Singapore</option><option>Other</option></select></div>
+              <div class="field"><label>Days in India this tax year</label><small>From 1 Apr to 31 Mar</small><input id="daysIndia" type="number" value="45"></div>
+              <div class="field"><label>Days in India in previous 4 years</label><small>Cumulative days</small><input id="days4" type="number" value="300"></div>
+              <div class="field"><label>Indian income excluding foreign income</label><small>Used for ₹15L threshold checks</small><input inputmode="numeric" id="indianIncomeThreshold" type="text" data-money value="0"></div>
+              <div class="field"><label>Indian citizen?</label><small>For citizen-specific rules</small><select id="citizen"><option value="yes">Yes</option><option value="no">No</option></select></div>
+              <div class="field"><label>Person of Indian Origin?</label><small>For visit rules</small><select id="pio"><option value="yes">Yes</option><option value="no">No</option></select></div>
+            </div>
+            <div class="section-card">
+              <h4>Special situation checks</h4>
+              <p>These refine the 60-day, 120-day and deemed resident logic.</p>
+              <div class="form-grid three">
+                <div class="field"><label>Left India for employment?</label><small>Indian citizen leaving for job abroad</small><select id="leftEmployment"><option value="no">No</option><option value="yes">Yes</option></select></div>
+                <div class="field"><label>Visited India during the year?</label><small>Citizen / PIO visit to India</small><select id="visited"><option value="yes">Yes</option><option value="no">No</option></select></div>
+                <div class="field"><label>Liable to tax in another country?</label><small>Due to residence / domicile etc.</small><select id="liableAbroad"><option value="yes">Yes</option><option value="no">No</option></select></div>
+              </div>
+            </div>
+            <div class="notice" id="residencyResult">Likely status will appear here.</div>
+          </div>
+
+          <div class="pane" data-pane="1">
+            <h3>Indian income</h3>
+            <p class="lead">For NRI, India-sourced income is usually the core Indian tax base. Rental income uses house-property head logic.</p>
+            <div class="section-card"><h4>Salary & bank income in India</h4><p>Enter income connected with India.</p><div class="form-grid three">
+              <div class="field"><label>Indian salary earned in India</label><small>Services rendered in India</small><input inputmode="numeric" id="indSalary" type="text" data-money value="0"></div>
+              <div class="field"><label>NRO / Indian bank interest</label><small>NRO and Indian-source interest</small><input inputmode="numeric" id="nroInterest" type="text" data-money value="0"></div>
+              <div class="field"><label>NRE interest</label><small>Shown separately for exemption review</small><input inputmode="numeric" id="nreInterest" type="text" data-money value="0"></div>
+              <div class="field"><label>Indian FD / savings interest</label><small>Other sources</small><input inputmode="numeric" id="fdInterest" type="text" data-money value="0"></div>
+              <div class="field"><label>Indian dividends</label><small>Dividend from Indian company</small><input inputmode="numeric" id="indDividends" type="text" data-money value="0"></div>
+              <div class="field"><label>Other Indian income</label><small>Any other India-sourced income</small><input inputmode="numeric" id="indOther" type="text" data-money value="0"></div>
+            </div></div>
+            <div class="section-card"><h4>Indian rental / house property</h4><p>Computed as gross rent minus municipal taxes, 30% standard deduction and loan interest.</p><div class="form-grid three">
+              <div class="field"><label>Gross annual rent</label><small>Rent received / receivable</small><input inputmode="numeric" id="rentGross" type="text" data-money value="0"></div>
+              <div class="field"><label>Municipal taxes paid</label><small>Only actually paid taxes</small><input inputmode="numeric" id="rentTax" type="text" data-money value="0"></div>
+              <div class="field"><label>Home loan interest</label><small>Interest on borrowed capital</small><input inputmode="numeric" id="rentInterest" type="text" data-money value="0"></div>
+            </div></div>
+            <div class="section-card"><h4>Indian capital gains</h4><p>Starter preview. Detailed STCG/LTCG category logic remains CA-review pending.</p><div class="form-grid three">
+              <div class="field"><label>Indian listed equity / MF STCG</label><small>Short-term gains</small><input inputmode="numeric" id="indStcg" type="text" data-money value="0"></div>
+              <div class="field"><label>Indian listed equity / MF LTCG</label><small>Long-term gains</small><input inputmode="numeric" id="indLtcg" type="text" data-money value="0"></div>
+              <div class="field"><label>Indian property capital gains</label><small>Property / land / building</small><input inputmode="numeric" id="indPropCg" type="text" data-money value="0"></div>
+            </div></div>
+          </div>
+
+          <div class="pane" data-pane="2">
+            <h3>Foreign income</h3>
+            <p class="lead">Foreign income treatment depends on your residential status. For non-residents, foreign income generally stays outside the Indian preview unless India-sourced/deemed India-sourced.</p>
+            <div class="form-grid three">
+              <div class="field"><label>Foreign salary</label><small>Earned outside India</small><input inputmode="numeric" id="forSalary" type="text" data-money value="0"></div>
+              <div class="field"><label>Foreign business / consulting</label><small>Outside India income</small><input inputmode="numeric" id="forBusiness" type="text" data-money value="0"></div>
+              <div class="field"><label>Foreign rental income</label><small>Property outside India</small><input inputmode="numeric" id="forRent" type="text" data-money value="0"></div>
+              <div class="field"><label>Foreign bank interest</label><small>Outside India interest</small><input inputmode="numeric" id="forInterest" type="text" data-money value="0"></div>
+              <div class="field"><label>Foreign dividends</label><small>Outside India dividends</small><input inputmode="numeric" id="forDividends" type="text" data-money value="0"></div>
+              <div class="field"><label>Foreign capital gains</label><small>Outside India assets</small><input inputmode="numeric" id="forCg" type="text" data-money value="0"></div>
+            </div>
+            <div class="section-card"><h4>RNOR control check</h4><p>For RNOR, foreign income may be included when derived from a business controlled in India or profession set up in India.</p><div class="form-grid">
+              <div class="field"><label>Business controlled / profession set up in India?</label><small>Only relevant for RNOR-style preview</small><select id="foreignControlled"><option value="no">No</option><option value="yes">Yes</option></select></div>
+              <div class="field"><label>Foreign income already received in India?</label><small>For India-receipt review</small><select id="foreignReceivedIndia"><option value="no">No</option><option value="yes">Yes</option></select></div>
+            </div></div>
+          </div>
+
+          <div class="pane" data-pane="3">
+            <h3>DTAA & taxes paid</h3>
+            <p class="lead">This section flags possible foreign tax credit / treaty review. It does not auto-approve DTAA relief.</p>
+            <div class="form-grid three">
+              <div class="field"><label>Foreign tax paid</label><small>Tax paid outside India</small><input inputmode="numeric" id="foreignTaxPaid" type="text" data-money value="0"></div>
+              <div class="field"><label>TDS deducted in India</label><small>Form 26AS / AIS / TIS</small><input inputmode="numeric" id="tdsIndia" type="text" data-money value="0"></div>
+              <div class="field"><label>Proof available?</label><small>Foreign tax return / certificate</small><select id="proof"><option value="yes">Yes</option><option value="no">No</option></select></div>
+            </div>
+            <div class="notice warn">DTAA and foreign tax credit are document-heavy. This page flags them for CA review instead of blindly reducing tax.</div>
+          </div>
+
+          <div class="pane" data-pane="4">
+            <h3>Review</h3>
+            <p class="lead">This is the NRI preview summary. Final filing should be reviewed before submission.</p>
+            <div class="summary-grid">
+              <div class="summary-card"><span>Likely status</span><strong id="sumStatus">-</strong></div>
+              <div class="summary-card"><span>Recommended ITR</span><strong id="sumItr">ITR-2</strong></div>
+              <div class="summary-card"><span>Preview outcome</span><strong id="sumOutcome">₹0</strong></div>
+            </div>
+            <div class="breakdown" id="breakdown"></div>
+            <div class="section-card"><h4>Documents checklist</h4><p>Documents usually needed for NRI filing preview.</p><div class="docs" id="docs"></div></div>
+          </div>
+
+          <div class="nav-actions"><button class="btn btn-ghost" id="backBtn">Back</button><button class="btn btn-soft" id="resetBtn">Reset</button><button class="btn btn-primary" id="nextBtn">Next</button></div>
+        </section>
+      </div>
+    </div>
+    <div class="estimate-cta">
+      <div>
+        <span>Estimate only</span>
+        <h3>This calculator gives a working estimate, not final filing advice.</h3>
+        <p>Actual tax can change after checking AIS/Form 26AS, deductions, DTAA relief, foreign tax credit proofs and capital gains schedules. Choose a plan to get a detailed CA consultation and filing review.</p>
+      </div>
+      <a class="btn btn-primary" href="index.html#pricing">View plans</a>
+    </div>
+  </div>
+</section>
+</main>
+<script>
+const q=id=>document.getElementById(id); const clean=v=>String(v??'').replace(/[^0-9.]/g,''); const num=id=>Math.max(0, Number(clean(q(id)?.value)||0)); const fmt=n=>'₹'+Math.round(n).toLocaleString('en-IN'); const formatIndian=v=>{const raw=clean(v); if(raw==='') return ''; const [a,b]=raw.split('.'); const head=Number(a||0).toLocaleString('en-IN'); return b!==undefined?head+'.'+b:head;}; const formatMoneyInputs=()=>document.querySelectorAll('input[data-money]').forEach(i=>{i.value=formatIndian(i.value);});
+const labels=['Residency','Indian income','Foreign income','DTAA','Review']; let step=0;
+function taxableNewRegime(income){ income=Math.max(0,income); const slabs=[[400000,0],[400000,0.05],[400000,0.10],[400000,0.15],[400000,0.20],[400000,0.25],[Infinity,0.30]]; let left=income,tax=0; for(const [amt,rate] of slabs){const part=Math.min(left,amt); if(part>0) tax+=part*rate; left-=part; if(left<=0)break;} if(income<=1200000) tax=0; return Math.round(tax*1.04); }
+function residency(){ const days=num('daysIndia'), days4=num('days4'), indian=num('indianIncomeThreshold'); const citizen=q('citizen').value==='yes', pio=q('pio').value==='yes', left=q('leftEmployment').value==='yes', visited=q('visited').value==='yes', liable=q('liableAbroad').value==='yes'; let status='Non-resident', reason='Less than main day-count thresholds for residence.'; if(days>=182){status='Resident'; reason='Stayed in India for 182 days or more.';} else if(citizen && !liable && indian>1500000){status='RNOR / deemed resident review'; reason='Indian citizen, not liable to tax elsewhere and Indian income exceeds ₹15L. Deemed resident / RNOR review triggered.';} else if((citizen||pio) && visited && indian>1500000 && days>=120 && days<182 && days4>=365){status='RNOR review'; reason='Citizen/PIO visit with Indian income above ₹15L, 120-181 days in India, and 365+ days in earlier 4 years.';} else if(days>=60 && days4>=365 && !(left && citizen) && !((citizen||pio)&&visited)){status='Resident'; reason='60 days in current year plus 365 days in previous 4 years.';} return {status,reason}; }
+function compute(){ const r=residency(); const rentGross=num('rentGross'), rentTax=Math.min(num('rentTax'),rentGross), rentInterest=num('rentInterest'); const nav=Math.max(0,rentGross-rentTax); const houseStd=Math.round(nav*.30); const hp=nav-houseStd-rentInterest; const indiaComponents={salary:num('indSalary'),nroInterest:num('nroInterest'),fdInterest:num('fdInterest'),dividends:num('indDividends'),other:num('indOther'),houseProperty:hp}; const indiaNormal=indiaComponents.salary+indiaComponents.nroInterest+indiaComponents.fdInterest+indiaComponents.dividends+indiaComponents.other+indiaComponents.houseProperty; const indiaSpecialComponents={stockMf:num('indStcg')+num('indLtcg'),property:num('indPropCg')}; const indiaSpecial=indiaSpecialComponents.stockMf+indiaSpecialComponents.property; const indiaTotal=indiaNormal+indiaSpecial; const foreignComponents={salary:num('forSalary'),business:num('forBusiness'),rent:num('forRent'),interest:num('forInterest'),dividends:num('forDividends'),capitalGains:num('forCg')}; const foreignTotal=foreignComponents.salary+foreignComponents.business+foreignComponents.rent+foreignComponents.interest+foreignComponents.dividends+foreignComponents.capitalGains; let includedForeign=0, foreignTreatment='Excluded from Indian preview for non-resident style case.'; if(r.status==='Resident'){includedForeign=foreignTotal; foreignTreatment='Included because resident preview uses worldwide income.';} else if(r.status.includes('RNOR') && (q('foreignControlled').value==='yes' || q('foreignReceivedIndia').value==='yes')){includedForeign=foreignTotal; foreignTreatment='Included for RNOR review because income is received in India or linked to business/profession controlled/set up in India.';} else if(r.status.includes('RNOR')){foreignTreatment='Excluded in this preview unless received in India or linked to business/profession controlled/set up in India.';} const taxable=indiaTotal+includedForeign; const tax=taxableNewRegime(taxable); const taxWithoutForeign=taxableNewRegime(indiaTotal); const foreignTaxPaid=num('foreignTaxPaid'); const foreignTaxLimit=Math.max(0,tax-taxWithoutForeign); const ftcPreview=(includedForeign>0 && foreignTaxPaid>0) ? Math.min(foreignTaxPaid, foreignTaxLimit, tax) : 0; const taxAfterFTC=Math.max(0,tax-ftcPreview); const outcome=taxAfterFTC-num('tdsIndia'); const dtaaFlag=ftcPreview>0 ? 'Foreign tax credit preview applied. DTAA / FTC documents still require CA review.' : ((foreignTotal>0 && foreignTaxPaid>0) ? 'Foreign tax paid captured, but no FTC preview used because foreign income is not included or Indian tax limit is zero.' : (foreignTotal>0 ? 'Foreign income captured. Treaty review may be needed.' : 'No foreign income entered.')); return {r,rentGross,rentTax,rentInterest,nav,houseStd,hp,indiaComponents,indiaSpecialComponents,indiaNormal,indiaSpecial,indiaTotal,foreignComponents,foreignTotal,includedForeign,foreignTreatment,taxable,tax,taxWithoutForeign,foreignTaxPaid,foreignTaxLimit,ftcPreview,taxAfterFTC,outcome,dtaaFlag}; }
+function calcRows(title, value, lines, total=false){ const detail=lines.map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join(''); return `<div class="row has-calc ${total?'total':''}"><span>${title}</span><span class="row-value"><strong>${value}</strong><button type="button" class="calc-action" data-calc>View calculation</button></span><div class="calc-panel">${detail}</div></div>`; }
+function render(){ document.querySelectorAll('.pane').forEach((p,i)=>p.classList.toggle('active',i===step)); q('steps').innerHTML=labels.map((l,i)=>`<span class="step-dot ${i===step?'active':''}">${i+1}. ${l}</span>`).join(''); q('rail').innerHTML=labels.map((l,i)=>`<div class="rail-item ${i===step?'active':i<step?'done':''}"><span class="rail-num">${i<step?'✓':i+1}</span><span>${l}</span></div>`).join(''); q('backBtn').disabled=step===0; q('nextBtn').textContent=step===labels.length-1?'Finish':'Next'; const c=compute(); q('residencyResult').innerHTML=`<strong>Likely status: ${c.r.status}</strong><br>${c.r.reason}`; q('sumStatus').textContent=c.r.status; q('sumOutcome').textContent=c.outcome>0?fmt(c.outcome)+' payable':(c.outcome<0?fmt(Math.abs(c.outcome))+' refund':'₹0 settled'); const outcomeText=q('sumOutcome').textContent; q('breakdown').innerHTML=[
+calcRows('Indian normal income',fmt(c.indiaNormal),[['Indian salary',fmt(c.indiaComponents.salary)],['NRO interest',fmt(c.indiaComponents.nroInterest)],['Indian FD interest',fmt(c.indiaComponents.fdInterest)],['Indian dividends',fmt(c.indiaComponents.dividends)],['Other Indian income',fmt(c.indiaComponents.other)],['House property income',fmt(c.indiaComponents.houseProperty)],['Total normal Indian income',fmt(c.indiaNormal)]]),
+calcRows('Indian special-rate income preview',fmt(c.indiaSpecial),[['Indian stock / MF gains',fmt(c.indiaSpecialComponents.stockMf)],['Indian property capital gains',fmt(c.indiaSpecialComponents.property)],['Total special-rate preview base',fmt(c.indiaSpecial)]]),
+calcRows('House property income included',fmt(c.hp),[['Gross annual rent',fmt(c.rentGross)],['Less: municipal tax paid',fmt(c.rentTax)],['Net annual value',fmt(c.nav)],['Less: 30% standard deduction',fmt(c.houseStd)],['Less: home-loan interest',fmt(c.rentInterest)],['Taxable house property income',fmt(c.hp)]]),
+calcRows('Foreign income entered',fmt(c.foreignTotal),[['Foreign salary',fmt(c.foreignComponents.salary)],['Foreign business / consulting',fmt(c.foreignComponents.business)],['Foreign rent',fmt(c.foreignComponents.rent)],['Foreign interest',fmt(c.foreignComponents.interest)],['Foreign dividends',fmt(c.foreignComponents.dividends)],['Foreign capital gains',fmt(c.foreignComponents.capitalGains)],['Total foreign income entered',fmt(c.foreignTotal)]]),
+calcRows('Foreign income included in India preview',fmt(c.includedForeign),[['Likely residential status',c.r.status],['Reason',c.r.reason],['Foreign income entered',fmt(c.foreignTotal)],['Foreign income included',fmt(c.includedForeign)],['Treatment',c.foreignTreatment]]),
+calcRows('Indian tax before foreign tax credit',fmt(c.tax),[['Indian income total',fmt(c.indiaTotal)],['Foreign income included',fmt(c.includedForeign)],['Taxable income used for preview',fmt(c.taxable)],['New-regime slab + rebate + 4% cess preview',fmt(c.tax)]]),
+calcRows('Foreign tax credit preview',fmt(c.ftcPreview),[['Country of income',q('country').value],['Foreign tax paid entered',fmt(c.foreignTaxPaid)],['Indian tax attributable to included foreign income',fmt(c.foreignTaxLimit)],['Credit preview used',fmt(c.ftcPreview)],['CA note','Subject to DTAA / FTC proof and Form 67 style document review']]),
+calcRows('Indian tax after foreign tax credit',fmt(c.taxAfterFTC),[['Indian tax before FTC',fmt(c.tax)],['Less: FTC preview',fmt(c.ftcPreview)],['Tax after FTC preview',fmt(c.taxAfterFTC)]]),
+calcRows('TDS deducted in India',fmt(num('tdsIndia')),[['TDS deducted in India',fmt(num('tdsIndia'))],['Used against Indian tax after FTC','Yes']]),
+calcRows('Foreign tax / DTAA flag',c.dtaaFlag,[['Country of income',q('country').value],['Foreign tax paid',fmt(c.foreignTaxPaid)],['Proof available?',q('proof').value==='yes'?'Yes':'No'],['Tool treatment','FTC preview shown only when foreign income is included in Indian tax and Indian tax limit is available']]),
+calcRows('Estimated refund / payable',outcomeText,[['Indian tax before FTC',fmt(c.tax)],['Less: foreign tax credit preview',fmt(c.ftcPreview)],['Tax after FTC',fmt(c.taxAfterFTC)],['Less: TDS deducted in India',fmt(num('tdsIndia'))],['India payable / refund',outcomeText],['Foreign tax paid','Credit only, not an automatic India refund']],true)
+].join(''); const docs=['Passport travel dates','Country tax residency proof','Indian AIS / TIS / Form 26AS','NRE / NRO bank statements','Indian rent agreement and property papers','Capital gains statement from broker / mutual fund platform','Foreign salary / tax return / W-2 / 1099 / payslips if applicable','Foreign tax paid proof for DTAA / FTC review','Indian TDS certificates','CA review for treaty relief']; q('docs').innerHTML=docs.map(d=>`<div class="doc">${d}</div>`).join(''); }
+document.addEventListener('click',e=>{const btn=e.target.closest('[data-calc]'); if(!btn) return; const panel=btn.closest('.has-calc')?.querySelector('.calc-panel'); if(panel){panel.classList.toggle('open'); btn.textContent=panel.classList.contains('open')?'Hide calculation':'View calculation';}});
+formatMoneyInputs(); document.querySelectorAll('input[data-money]').forEach(el=>{el.addEventListener('focus',()=>{if(el.value==='0') el.select();}); el.addEventListener('input',()=>{el.value=formatIndian(el.value); render();});}); document.querySelectorAll('input:not([data-money]),select').forEach(el=>el.addEventListener('input',render)); q('nextBtn').addEventListener('click',()=>{ if(step<labels.length-1){step++; render(); document.querySelector('.wizard').scrollIntoView({block:'start',behavior:'smooth'});} }); q('backBtn').addEventListener('click',()=>{ if(step>0){step--; render();} }); q('resetBtn').addEventListener('click',()=>{document.querySelectorAll('input').forEach(i=>i.value=i.defaultValue); document.querySelectorAll('select').forEach(s=>s.selectedIndex=0); step=0; formatMoneyInputs(); render();}); render();
+</script>
+</body></html>
